@@ -1,0 +1,50 @@
+.recentes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10%  5%;
+    padding: 15px;
+}
+
+.livro-imagem{
+    min-height: 200px;
+    width: 80%;
+    margin-bottom: 6px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card h3{
+    font-size: 2rem;
+    color: var(--cor-verde);
+    font-weight: 200;
+}
+
+.card p{
+    color: var(--cor-vermelho1);
+    margin: 0 0 10px 0;
+}
+
+.card i{
+    color: var(--cor-amarelo);
+}
+
+#livro-1{
+    background-image: url(../../../../files/imagens/benjamim.jpg);
+    border-radius: 3px;
+}
+
