@@ -1,40 +1,38 @@
-main{
+main {
     margin: 50px;
 }
 
 header nav {
-   display: flex;
-   width: 100%;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-ul li{
+nav a {
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+nav a:hover {
+    text-decoration: overline;
+    margin: 2px;
+    text-decoration-style: dotted;
+}
+
+ul li {
     display: inline;
-    margin: 35px;
+    margin: 25px 35px;
     font-family: subtitulo;
     color: var(--cor-vermelho1);
 }
 
-.box-img{
+.box-img {
     margin: 0 80px 0 80px;
 }
 
-@media (max-width: 425px){
-  
-    ul li{
-        display: inline;
-        margin: 35px;
-        font-family: subtitulo;
-        color: var(--cor-vermelho1);
-        font-size: .5rem;
-    }
-    
-    .box-img{
-        margin: 0 80px 0 80px;
-    }
-    
-    .logo{
+a:visited {
+    color: var(--cor-vermelho2);
 
-    }
 }
