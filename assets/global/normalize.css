@@ -9,4 +9,5 @@
 }
 body, html{
     background-color: var(--cor-body);
+    font-family: subtitulo;
 }
