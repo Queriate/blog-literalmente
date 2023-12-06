@@ -2,3 +2,8 @@
     font-family: 'subtitulo';
     src: url(../../files/font/OpenSauceOne-Medium.ttf);
 }
+
+@font-face{
+    font-family: 'titulo';
+    src: url(../../files/font/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
