@@ -1,10 +1,10 @@
 .conteiner {
     display: flex;
-    
 }
 
 section.ultima-resenha{
     width: 65%;
+    margin: 0 10px 0 0;
 }
 
 header.titulo-livro {
@@ -45,18 +45,67 @@ header.titulo-livro {
 }
 
 .data-da-resenha{
-    color: var(--cor-vermelho1);
+    color: var(--cor-branco);
 }
 
 .box-img-ultima-resenha {
-    height: 100%;
+    height: 290px;
     width: 100%;
     background-position: center;
     background-size: cover;
-    padding: px;
+ 
 }
 
 #ultima-resenha{
-    background-image: url(../../../../files/imagens/img-ultima-resenha.jpg);
+    background-image: url(../../../../files/imagens/img-ultima-resenha.png);
+}
+
+.resumo-resenha{
+    display: flex;
+    align-items: center;
+    height: 270px;
+    background-color: var(--cor-verde);
+    font-size: 1.2rem;
+    line-height: 2px;
+    text-align: justify;
+    color: var(--cor-branco);
+}
+
+.resumo-resenha p{
+    padding: 60px 100px;
+}
+
+.citação{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 290px;
+    background-color: var(--cor-branco);
+    font-size: 3rem;
+}
+
+.ultima-resenha footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: var(--cor-verde);
+    border-radius: 0 0 65px 65px ;
+}
+
+.ultima-resenha footer a{
+    color: var(--cor-vermelho1);
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: var(--cor-vermelho3);
+    padding: 10px 30px;
+    border-radius:30px;
+    transition: 0.3s;
+}
+
+.box-btn, footer a:hover{
+    color: var(--cor-vermelho3);
+    background-color: var(--cor-vermelho1);
 }
 
