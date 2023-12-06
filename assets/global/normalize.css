@@ -12,4 +12,5 @@ body, html{
     background-color: var(--cor-body);
     font-family: subtitulo;
     margin: 0 auto;
+    height: 320vh;
 }
