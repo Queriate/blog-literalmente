@@ -24,7 +24,6 @@ nav a:hover {
 ul li {
     display: inline;
     margin: 25px 35px;
-    font-family: subtitulo;
     color: var(--cor-vermelho1);
 }
 
