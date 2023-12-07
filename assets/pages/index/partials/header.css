@@ -1,33 +1,40 @@
-header nav {
+header {
     display: flex;
-    width: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 0 auto;
 }
 
-nav a {
+.logo-1 img {
+    margin: 50px;
+}
+
+nav.menus ul, li {
+    display: flex;
+    width: 0 auto;
     text-decoration: none;
-    transition: 0.4s;
-
 }
 
-nav a:hover {
-    text-decoration: overline;
-    margin: 2px;
-    text-decoration-style: dotted;
+nav.menus li {
+
+    margin: 0 70px;
 }
 
-ul li {
-    display: inline;
-    margin: 25px 25px;
-    color: var(--cor-vermelho1);
-}
+@media (max-width: 576px) {
+    
+    nav.menus ul, li {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 0 auto;
+        text-decoration: none;
+    }
 
-.box-img {
-    margin: 0 95px 0 95px;
-}
+    nav.menus li{
+        margin: 0 0 15px 0;
+    }
 
-a:visited {
-    color: var(--cor-vermelho2);
-
+  
 }
