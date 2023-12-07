@@ -1,0 +1,28 @@
+footer.rodape{
+    display: flex; 
+    margin: 100px 0 0 0;
+}
+
+footer .cor-1{
+    height: 100px;
+    width: 25%;
+    background-color: var(--azul-escuro);
+}
+
+footer .cor-2{
+    height: 100px;
+    width: 25%;
+    background-color: var(--azul-medio);
+}
+
+footer .cor-3{
+    height: 100px;
+    width: 25%;
+    background-color: var(--azul-claro);
+}
+
+footer .cor-4{
+    height: 100px;
+    width: 25%;
+    background-color: var(--azul-fino);
+}
