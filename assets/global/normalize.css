@@ -8,7 +8,6 @@
     appearance: none;
 }
 body, html{
-    width: 1000px;
     background-color: var(--cor-body);
     font-family: subtitulo;
     margin: 0 auto;
