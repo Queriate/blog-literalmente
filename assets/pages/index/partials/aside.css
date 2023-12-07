@@ -8,6 +8,7 @@ aside{
     width: 35%;
     margin: 0 0 0 5px;
     gap: 45px;
+    background-color: aquamarine;
 }
 
 header.bg-aside{
