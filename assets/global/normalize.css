@@ -14,3 +14,9 @@ body, html{
     margin: 0 auto;
     height: 320vh;
 }
+
+@media (max-width: 576px){
+    body, html{
+        width: 100%;
+}
+}
