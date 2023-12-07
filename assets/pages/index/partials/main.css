@@ -112,3 +112,65 @@ footer.box-btn a:hover{
 }
 
 /* *****************fim footer****************** */
+
+@media (max-width: 576px){
+
+    .conteudo .conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+    /* **********************fim conteiner********************** */
+    
+    section.ultima-resenha{
+        width: 100%;
+        margin: 25PX 5px 0 0;
+        border: solid 1px var(--azul-escuro);
+    }
+    
+    /* *********************fim ultima resenha********************* */
+    
+    .titulo-autor-data{
+        margin: 0 0 0 30px;
+    }
+    
+    .titulo-autor-data h3{
+        font-size: 2rem;
+        margin: 0 0 2.5px 0;
+    }
+    
+    .titulo-autor-data h4{
+        font-size: 1.1rem;
+        margin: 0 0 15px 0;
+    }
+
+    /* *****************fim titulo, autor e data****************** */
+    
+    .resumo-resenha .resumo-curto{
+        text-align: justify;
+        padding: 60px;
+    }
+    
+    .resumo-curto {
+        font-size: 1rem;
+    }
+    
+    /* *****************fim resumo-resenha****************** */
+    
+    .citação{
+        font-size: 2rem;
+    }
+    
+    /* *****************fim citação****************** */
+    
+    footer.box-btn{
+        margin: 30px;
+    }
+    
+    footer.box-btn a{
+        font-size: .9rem;
+
+    }
+
+}
