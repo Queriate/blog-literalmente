@@ -7,3 +7,8 @@
     font-family: 'titulo';
     src: url(../../files/font/PlayfairDisplay-Italic-VariableFont_wght.ttf);
 }
+
+@font-face{
+    font-family: 'citacao';
+    src: url(../../files/font/cmunbi.ttf);
+}
