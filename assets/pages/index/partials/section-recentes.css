@@ -12,7 +12,7 @@
     transform: rotate(-90deg);
     font-style: italic;
     font-family: subtitulo;
-    margin: 0 -95px 0 55px;
+
 }
 
 .recentes .card{
@@ -66,7 +66,6 @@
     
     .recentes .ultima-resenha{
         font-size: .6rem;
-        margin: 0 -45px 0 25px;
     }
     
     .recentes .card{
