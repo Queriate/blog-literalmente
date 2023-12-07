@@ -1,9 +1,18 @@
 .recentes{
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 50vh;
+    width: 100%;
     padding: 50px;
+    background-color: var(--azul-escuro);
+}
+
+.ultima-resenha{
+    color: var(--cor-body);
+    transform: rotate(-90deg);
+    font-style: italic;
+    font-family: subtitulo;
+    margin: 0 -95px 0 55px;
 }
 
 .card{
@@ -17,8 +26,8 @@
 }
 
 .livro-imagem{
-    min-height: 200px;
-    width: 80%;
+    min-height: 130px;
+    width: 90%;
     margin-bottom: 6px;
     background-position: center;
     background-size: cover;
@@ -29,22 +38,59 @@
 }
 
 .card h3{
-    font-size: 2rem;
-    color: var(--cor-verde);
+    font-size: 1.2rem;
+    color: var(--cor-body);
     font-weight: 200;
 }
 
 .card p{
-    color: var(--cor-vermelho1);
-    margin: 0 0 10px 0;
+    font-size: .7rem;
+    color: var(--azul-fino);
 }
 
 .card i{
     color: var(--cor-amarelo);
+    font-size: .6rem;
 }
 
 #livro-1{
     background-image: url(../../../../files/imagens/benjamim.jpg);
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
+@media (max-width: 576px){
+
+    .recentes{
+        height: 30vh;
+    }
+    
+    .ultima-resenha{
+        font-size: .6rem;
+        margin: 0 -45px 0 25px;
+    }
+    
+    .card{
+        gap: 8px;
+        margin: 5%  2%;
+        padding: 15px;
+    }
+    
+    .livro-imagem{
+        min-height: 65px;
+        width: 70%;
+        margin-bottom: 3px;
+    }
+    
+    .card h3{
+        font-size: .8rem;
+    }
+    
+    .card p{
+        font-size: .5rem;
+    }
+    
+    .card i{
+        font-size: .4rem;
+    }
+ 
+}
