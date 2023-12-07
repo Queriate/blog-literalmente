@@ -1,111 +1,114 @@
-.conteiner {
+.conteudo .conteiner{
     display: flex;
+    width: 900px;
+    margin: 0 auto;
 }
+/* **********************fim conteiner********************** */
 
 section.ultima-resenha{
     width: 65%;
-    margin: 0 10px 0 0;
+    margin: 50PX 10px 0 0;
+    border: solid 1px var(--azul-escuro);
 }
 
-header.titulo-livro {
+/* *********************fim ultima resenha********************* */
+
+.capa-livro{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.gradient{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, var(--cor-body), transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-benjamim img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+/* **********************fim capa do livro********************** */
+
+.titulo-autor-data{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding: 35px 65px;
-    width: 100%;
-    height: 400px;
-    background-color: var(--cor-verde);
-    border-radius: 65px 65px 0 0;
-    gap: 45px;
+    margin: 0 0 0 35px;
+    padding: 25px;
 }
 
-.logo-2 {
-    min-height: 47px;
-    width: 8%;
-    margin-bottom: 6px;
-    background-position: center;
-    background-size: cover;
+.titulo-autor-data h3{
+    font-size: 3rem;
+    color: var(--azul-escuro);
+    margin: 0 0 5px 0;
 }
 
-#logo-lm {
-    background-image: url(../../../../files/imagens/logo-lm.svg);
-
+.titulo-autor-data h4{
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin: 0 0 20px 0;
+    color: var(--azul-medio);
 }
 
-.titulo{
-    color: var(--cor-branco);
-    font-size: 4rem;
-    margin: 0 0 10px 0;
+.titulo-autor-data h5{
+    color: var(--azul-escuro);
 }
 
-.autor{
-    font-size: 2.2rem;
-    color: var(--cor-vermelho1);
-    margin: 0 0 10px 0;
-}
+/* *****************fim titulo, autor e data****************** */
 
-.data-da-resenha{
-    color: var(--cor-branco);
-}
-
-.box-img-ultima-resenha {
-    height: 290px;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
- 
-}
-
-#ultima-resenha{
-    background-image: url(../../../../files/imagens/img-ultima-resenha.png);
-}
-
-.resumo-resenha{
-    display: flex;
-    align-items: center;
-    height: 270px;
-    background-color: var(--cor-verde);
-    font-size: 1.2rem;
-    line-height: 2px;
+.resumo-resenha .resumo-curto{
     text-align: justify;
-    color: var(--cor-branco);
+    padding: 60px;
 }
 
-.resumo-resenha p{
-    padding: 60px 100px;
+.resumo-curto {
+    font-size: 1.1rem;
+    font-weight: 100;
+    font-family: subtitulo;
+    color: var(--azul-escuro);
 }
+
+/* *****************fim resumo-resenha****************** */
 
 .citação{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 290px;
-    background-color: var(--cor-branco);
-    font-size: 3rem;
+    align-items: center;
+    font-size: 3.5rem;
+    font-weight: 100;
+    background-color: var(--azul-escuro);
+    padding: 60px;
+    color: var(--azul-fino);
+    font-family: citacao;
 }
 
-.ultima-resenha footer{
+/* *****************fim citação****************** */
+
+footer.box-btn{
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100px;
-    background-color: var(--cor-verde);
-    border-radius: 0 0 65px 65px ;
+    align-items: center;
+    margin: 50px;
 }
 
-.ultima-resenha footer a{
-    color: var(--cor-vermelho1);
+footer.box-btn a{
+    font-size: 1.2rem;
+    background-color: var(--azul-medio);
+    padding: 10px 35px;
+    border-radius: 30px;
     text-decoration: none;
-    font-size: 1.5rem;
-    background-color: var(--cor-vermelho3);
-    padding: 10px 30px;
-    border-radius:30px;
-    transition: 0.3s;
+    color: var(--cor-body);
+    transition: .3s;
 }
 
-.box-btn, footer a:hover{
-    color: var(--cor-vermelho3);
-    background-color: var(--cor-vermelho1);
+footer.box-btn a:hover{
+    background-color: var(--azul-claro);
 }
 
+/* *****************fim footer****************** */
