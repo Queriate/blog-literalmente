@@ -17,6 +17,7 @@ nav.menus ul, li {
     width: 0 auto;
     text-decoration: none;
     color: var(--azul-escuro);
+    cursor: pointer;
 }
 
 nav.menus li {
