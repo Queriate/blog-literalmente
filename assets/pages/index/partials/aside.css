@@ -26,6 +26,13 @@ aside.perfil{
     font-weight: 100;
 }
 
+.redes .redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
 .info-perfil .redes i{
     font-size: 1.5rem;
     color: var(--azul-escuro);
