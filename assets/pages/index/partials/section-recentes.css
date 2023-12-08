@@ -33,28 +33,28 @@
     background-size: cover;
 }
 
-.recentes .card a{
+.recentes .card-recentes a{
     text-decoration: none;
 }
 
-.recentes .card h3{
+.recentes .card-recentes h3{
     font-size: 1.2rem;
     color: var(--cor-body);
     font-weight: 200;
 }
 
-.recentes .card p{
+.recentes .card-recentes p{
     font-size: .7rem;
     color: var(--azul-fino);
 }
 
-.recentes .card i{
+.recentes .card-recentes i{
     color: var(--cor-amarelo);
     font-size: .6rem;
 }
 
 .recentes #livro-1{
-    background-image: url(../../../../files/imagens/benjamim.jpg);
+    background-image: url(../../../../files/imagens/livros/benjamim.jpg);
     border-radius: 5px;
 }
 
