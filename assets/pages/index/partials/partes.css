@@ -1,0 +1,173 @@
+.conteudo .conteiner{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+/* **********************fim conteiner********************** */
+
+section.seçao-resenha{
+    width: 65%;
+    margin: 50PX 10px 0 0;
+    border: solid 1px var(--azul-escuro);
+}
+
+/* *********************fim ultima resenha********************* */
+
+.resenha{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.titulo h2{
+    padding: 65px 0 0 100px;
+    color: var(--cor-laranja);
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.ano{
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    align-items: center;
+}
+
+.ano .data{
+    background-color: var(--azul-escuro);
+    color: var(--cor-laranja);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+/* *********************fim header********************* */
+
+.grade-resenha{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1% 5%;
+}
+
+.card h3{
+    font-size: 1.4rem;
+    margin: 0 0 8px 0;
+}
+
+.card p{
+    font-size: .6rem;
+    color: var(--cor-amarelo);
+}
+
+.img-resenha{
+    height: 150px;
+    width: 100px;
+    border-radius: 3px;
+    margin: 0 0 15px 0;
+    background-position: center;
+    background-size: cover;
+    border: solid .4px var(--azul-fino);
+
+}
+
+#o-lagosta{
+    background-image: url(../../../../files/imagens/filmes/o-lagosta.jpg);
+}
+
+/* **************escodidinho************** */
+.none-2, .none-3, .none-4, .none-5, .none-6 {
+    display: none;
+}
+/* **************escodidinho************** */
+
+@media (max-width: 576px){
+
+    .conteudo .conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        margin: 0 auto;
+    }
+    /* **********************fim conteiner********************** */
+    
+    section.seçao-resenha{
+        width: 100%;
+        margin: 25PX 5px 0 0;
+        border: solid 1px var(--azul-escuro);
+    }
+    
+    /* *********************fim ultima resenha********************* */
+    
+    .resenha{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    
+    .titulo h2{
+        padding: 65px 0 0 100px;
+        color: var(--cor-laranja);
+        letter-spacing: 2px;
+        font-size: 2rem;
+    }
+    
+    .ano{
+        display: flex;
+        justify-content: center;
+        height: 65px;
+        align-items: center;
+    }
+    
+    .ano .data{
+        background-color: var(--azul-escuro);
+        color: var(--cor-laranja);
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+    
+    /* *********************fim header********************* */
+    
+    .grade-resenha{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .card{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card h3{
+        font-size: .9rem;
+        margin: 0 0 4px 0;
+    }
+
+    .card p{
+        font-size: .4rem;
+    }
+    
+    .img-resenha{
+        height: 150px;
+        width: 100px;
+        background-color: #eee;
+        margin: 0 0 5px 0;
+    }
+
+    /* **************escodidinho************** */
+.none-2, .none-3, .none-4, .none-5, .none-6 {
+    display: none;
+}
+/* **************escodidinho************** */
+    
+}
