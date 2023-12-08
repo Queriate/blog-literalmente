@@ -12,7 +12,7 @@ header {
     margin: 50px;
 }
 
-nav.menus ul, li {
+nav.menus ul, a {
     display: flex;
     width: 0 auto;
     text-decoration: none;
@@ -20,13 +20,19 @@ nav.menus ul, li {
     cursor: pointer;
 }
 
-nav.menus li {
+nav.menus ul, li {
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav.menus a {
 
     margin: 0 70px;
     transition: .3s;
 }
 
-nav.menus li:hover{
+nav.menus a:hover{
     color: var(--azul-claro);
     font-size: large;
 }
