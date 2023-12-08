@@ -61,14 +61,14 @@
 @media (max-width: 576px){
 
     .recentes{
-        height: 30vh;
+        height: 15vh;
     }
     
     .recentes .ultima-resenha{
         font-size: .6rem;
     }
     
-    .recentes .card{
+    .recentes .card-recentes{
         gap: 8px;
         margin: 5%  2%;
         padding: 15px;
@@ -76,20 +76,20 @@
     
     .recentes .livro-imagem{
         min-height: 65px;
-        width: 70%;
+        width: 85%;
         margin-bottom: 3px;
     }
     
-    .recentes .card h3{
-        font-size: .8rem;
+    .recentes .card-recentes h3{
+        font-size: .7rem;
     }
     
-    .recentes .card p{
-        font-size: .5rem;
-    }
-    
-    .recentes .card i{
+    .recentes .card-recentes p{
         font-size: .4rem;
+    }
+    
+    .recentes .card-recentes i{
+        font-size: .3rem;
     }
  
 }
