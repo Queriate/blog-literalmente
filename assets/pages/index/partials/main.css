@@ -64,7 +64,7 @@ section.ultima-resenha{
 
 .resumo-resenha .resumo-curto{
     text-align: justify;
-    padding: 60px;
+    padding: 80px;
 }
 
 .resumo-curto {
@@ -72,6 +72,17 @@ section.ultima-resenha{
     font-weight: 100;
     font-family: subtitulo;
     color: var(--azul-escuro);
+    line-height: 20px;
+}
+
+.resumo-curto span{
+    font-size: 2.2rem;
+    color: var(--cor-laranja);
+}
+
+.citação span{
+    font-size: 2.2rem;
+    color: var(--cor-laranja);
 }
 
 /* *****************fim resumo-resenha****************** */
@@ -80,7 +91,7 @@ section.ultima-resenha{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 100;
     background-color: var(--azul-escuro);
     padding: 60px;
