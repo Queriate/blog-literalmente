@@ -20,9 +20,13 @@
            top: 250px;
            left: 0;
            width: 100%;
-           height: 240px;
-           background-color: var(--cor-body);
+           height: 178px;
+           background-color: var(--cor-menu);
            z-index: 1;
+       }
+
+       .menus li{
+        border-bottom: 1px solid #0D283F03;
        }
 
        .menus.show {
