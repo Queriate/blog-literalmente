@@ -70,27 +70,27 @@
     }
     
     .recentes .card-recentes{
-        gap: 8px;
+        gap: 10px;
         margin: 5%  2%;
-        padding: 15px;
+        padding: 10px;
     }
     
     .recentes .livro-imagem{
-        min-height: 65px;
-        width: 85%;
-        margin-bottom: 3px;
+        min-height: 105px;
+        width: 95%;
+        margin-bottom: 8px;
     }
     
     .recentes .card-recentes h3{
-        font-size: .7rem;
+        font-size: .8rem;
     }
     
     .recentes .card-recentes p{
-        font-size: .4rem;
+        font-size: .6rem;
     }
     
     .recentes .card-recentes i{
-        font-size: .3rem;
+        font-size: .5rem;
     }
  
 }
