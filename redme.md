@@ -28,8 +28,8 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE) - consulte o arquivo
 ## Contato
 
 - Autor: Queriate Silva
-- [GitHub](https://github.com/seu-usuario)
-- [LinkedIn](https://www.linkedin.com/in/seu-usuario)
-- Email: seu.email@example.com
+- [GitHub]()
+- [LinkedIn]()
+- Email: queriatejobs@gmail.com
 
 ---
