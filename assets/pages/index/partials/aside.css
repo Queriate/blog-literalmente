@@ -16,7 +16,7 @@ aside.perfil{
     align-items: center;
     background-color: var(--azul-fino);
     gap: 15px;
-    transform: translateY(-130px);
+    transform: translateY(-103px);
 }
 
 .info-perfil h3{
