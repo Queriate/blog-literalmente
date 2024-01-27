@@ -46,23 +46,23 @@ section.resenha-texto{
 .resenha-texto header .img-da-resenha img{
     border-radius: 5px;
     max-width: 200px;
+    margin: 0 7px 0 0;
 }
 
 .resenha-texto header .informacoes h2{
-    font-size: 2.5rem;
+    font-size: clamp(1.5rem, 1rem + 1vw, 2.5rem);
     color: var(--azul-escuro);
     margin: 0 0 20px 0;
 }
 
 .resenha-texto header .informacoes p{
-    font-size: 1rem;
+    font-size: clamp(.5rem, .5rem + .5vw, 1rem);
     color: var(--azul-claro);
     margin: 0 0 20px 0;
-    line-height: 20px;
 }
 
 .resenha-texto header .informacoes .icons{
-    font-size: 1rem;
+    font-size: clamp(.6rem, .6rem + 1vw, 1rem);
     color: var(--cor-amarelo);
     margin: 0 0 20px 0;
 }
@@ -71,7 +71,7 @@ section.resenha-texto{
 
 .resenha-texto .grade-resenha{
     padding: 125px;
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 1rem + 1vw, 1.2rem);
     text-align: justify;
 }
 
@@ -80,14 +80,16 @@ section.resenha-texto{
     line-height: 25px;
 }
 
-@media (max-width: 576px){
+@media (max-width: 900px){
     .conteudo-resenha .conteiner-resenha{
         width: 350px;
     }
     /* **********************fim conteiner********************** */
     
     section.resenha-texto{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
         border: solid 1px var(--azul-escuro);
     }
     
@@ -109,18 +111,15 @@ section.resenha-texto{
     }
     
     .resenha-texto header .informacoes h2{
-        font-size: 1.5rem;
         margin: 0 0 10px 0;
     }
     
     .resenha-texto header .informacoes p{
-        font-size: .5rem;
         margin: 0 0 10px 0;
         line-height: 10px;
     }
     
     .resenha-texto header .informacoes .icons{
-        font-size: .6rem;
         margin: 0 0 10px 0;
     }
     
@@ -128,7 +127,6 @@ section.resenha-texto{
     
     .resenha-texto .grade-resenha{
         padding: 62.5px;
-        font-size: 1rem;
     }
     
     .resenha-texto .grade-resenha p{
