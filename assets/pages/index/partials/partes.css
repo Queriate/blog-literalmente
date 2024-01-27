@@ -60,6 +60,12 @@ section.seçao-resenha{
 .card h3{
     font-size: 1.4rem;
     margin: 0 0 8px 0;
+    color: var(--azul-escuro);
+    transition: .3s;
+}
+
+.card h3:hover{
+    color: var(--azul-medio);
 }
 
 .card p{
