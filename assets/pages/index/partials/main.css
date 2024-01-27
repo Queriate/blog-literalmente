@@ -126,7 +126,7 @@ footer.box-btn a:hover{
 
 /* *****************Responsivo****************** */
 
-@media (max-width: 576px){
+@media (max-width: 900px){
 
     .conteudo .conteiner{
         display: flex;
@@ -137,7 +137,7 @@ footer.box-btn a:hover{
     /* **********************fim conteiner********************** */
     
     section.ultima-resenha{
-        width: 100%;
+        width: 85%;
         margin: 25PX 5px 0 0;
         border: solid 1px var(--azul-escuro);
     }
